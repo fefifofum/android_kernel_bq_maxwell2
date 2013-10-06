@@ -1,4 +1,4 @@
-obj-y += ../plat-rk/clock.o
+#obj-y += ../plat-rk/clock.o
 obj-y += clock_data.o
 obj-y += common.o
 CFLAGS_common.o += -DTEXT_OFFSET=$(TEXT_OFFSET)
